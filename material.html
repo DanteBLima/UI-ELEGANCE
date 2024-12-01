@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de UI Design - Boas Práticas</title>
+    
+    <link rel="stylesheet" href="css/tips.css">
+    <link rel="stylesheet" href="css/styless.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="top">
+        <a href="#top" class="scroll-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+    </div>
+    <header>
+        <div class="container">
+            <nav>
+                <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="design.html">Design</a></li>
+                    <li><a href="material.html">Material</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="precos.html">Pricing</a></li>
+                    
+                    
+                </ul>
+
+                <div class="nav-right">
+                    <ul>
+                        <li><a href="login.html">Login/Sign Up</a></li>
+                        <li><button class="button">
+                    
+                            <svg class="cartIcon" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </button></li>
+                    </ul>
+                </div>
+                
+            </nav>
+        </div>
+    </header>
+
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Conceitos Principais</h1>
+            <p>Aprenda as melhores práticas para criar interfaces incríveis</p>
+        </div>
+    </section>
+
+   
+    <main class="tips-content">
+        <div class="container">
+           
+            <div class="tip-card fade-in">
+                
+                <h2><a href="https://www.aela.io/pt-br/blog/conteudos/hierarquia-visual-em-ui-como-destacar-o-que-precisa-ser-destacado" target="_blank">Hierarquia Visual</a></h2>
+                <p>Estabeleça uma clara hierarquia visual usando tamanhos, cores e espaçamento para guiar os usuários através do conteúdo.
+                    São tantas informações que, subconscientemente, nós observamos primeiro aquilo que se destaca dentro dessa multidão de elementos.<br><br>
+                    Nesse sentido, o Designer, com algumas ferramentas e fatores em mãos, consegue determinar a maneira com que o usuário consome o conteúdo da interface, aprimorando, dessa forma, a sua experiência.
+                </p>
+                
+                <img src="resources/hierarquia.png" alt="Exemplo de hierarquia visual" class="tip-image">
+                
+            </div>
+
+            
+            <div class="tip-card fade-in">
+        
+                <h2><a href="https://www.aela.io/pt-br/blog/conteudos/consistencia-e-padronizacao-em-ui" target="_blank">Consistência no Design</a></h2>
+                <p>Mantenha elementos similares consistentes em toda a interface para criar uma experiência coesa e previsível.<br><br>
+                    Durante sua Jornada, o usuário precisa encontrar um conteúdo padronizado e consistente que faz com que sua navegação seja mais fácil e simples.
+
+Nesse sentido, quando falamos de consistência e padronização, queremos dizer que as cores, os botões, a tipografia se mantenham os mesmos por toda a interface e durante toda a experiência do usuário.
+                </p>
+                <img src="resources/designConsistente.png" alt="Exemplo de consistência no design" class="tip-image">
+            </div>
+
+            
+            <div class="tip-card fade-in">
+                
+                <h2><a href="https://www.aela.io/pt-br/blog/conteudos/alinhamento-em-ui-design-o-conceito-invisivel-da-interface" target="_blank">Espaçamento e Alinhamento</a></h2>
+                <p>De maneira geral, quando olhamos para elementos organizados conseguimos localizar mais facilmente o que queremos. Pense em uma mesa de trabalho, por exemplo. Ou no seu armário de roupas.
+                    <br><br>
+                    Nesse sentido, o Alinhamento em UI é uma teoria em Design que tem como objetivo organizar os elementos da interface, deixando-a mais legível para o usuário. Além disso, o alinhamento deixa o design mais limpo e estruturado.
+                </p>
+                <img src="resources/align.png" alt="Exemplo de espaçamento e alinhamento" class="tip-image">
+            </div>
+
+            
+            <div class="tip-card fade-in">
+                
+                <h2><a href="https://userpilot.com/blog/feedback-ui/" target="_blank">Feedback Visual</h2></a>
+                <p>Forneça feedback visual claro para todas as interações do usuário, tornando a interface mais responsiva e intuitiva.
+                    <br>Quando o usuário clica em um botão e <strong>nada</strong> acontece, ele fica frustrado, pois não há nenhum feedback sobre 
+                    o que está acontecendo, porém quando é informado uma mensagem de sucesso ou falha, o usuário se sente mais satisfeito.
+                </p>
+                <video width="950" height="560" controls>
+                    <source src="resources/feedback.mp4" type="video/mp4">
+                    Seu navegador não suporta a reprodução de vídeos.
+                </video>
+            </div>
+        </div>
+    </main>
+
+    >
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="design.html">Design</a></li>
+                        <li><a href="material.html">Material</a></li>
+                        <li><a href="precos.html">Preços</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="resources/Briefing.docx" >Briefing</a></li>
+                        <li><a href="resources/Prototype.pdf">Wireframe</a></li>
+                        <li><a href="resources/Documentação Site.pdf">Documentação</a></li>
+                        <li><a href="resources/diagrama.jpeg">Diagrama</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>Email: contato@uielegance.com</p>
+                    <p>Telefone: (XX) XXXX-XXXX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 UI Elegance. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/fadeAnimation.js"></script>
+    <script src="js/load.js"></script>
+    <script src="js/auth.js"></script>
+</html>
